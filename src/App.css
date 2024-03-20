@@ -27,3 +27,19 @@ a {
   color: wheat;
   margin: 0 10px;
 }
+
+a:hover {
+  color: #e0e0e0;
+}
+
+.body-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding-top: 100px;
+  padding-left: 300px;
+  height: 100vh;
+  color: wheat;
+  border: 1px solid #e0e0e0;
+  
+}
