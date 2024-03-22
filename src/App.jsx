@@ -1,10 +1,31 @@
-import { useState } from 'react'
-import Header from './Header.jsx'
+// import { Component, useState } from 'react'
+// import Header from './Header.jsx'
 import Navbar from './Navbar.jsx'
-/*import './App.css'*/
+import Home from './pages/Home.jsx'
+import Dev from './pages/Dev.jsx'
+import Design from './pages/Design.jsx'
+//import './App.css'
+import './Tut.css'
 
 function App() {
-  return <Navbar />
+  let Component
+  switch (window.location.pathname) {
+    case "/":
+      Component = App
+      break
+    case "/design":
+      Component = Design
+      break
+    case "/dev":
+      Component = Dev
+      break
+  }
+  return (
+    <>
+      <Navbar />
+      <Component />
+    </>
+    )
     {/*<div className='app-container'>
       <Header />
       <body className='body-container'>
