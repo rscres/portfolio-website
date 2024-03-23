@@ -6,25 +6,18 @@ import Dev from './pages/Dev.jsx'
 import Design from './pages/Design.jsx'
 //import './App.css'
 import './Tut.css'
+import { Route, Routes } from 'react-router-dom'
 
 function App() {
-  let Component
-  switch (window.location.pathname) {
-    case "/":
-      Component = Home
-      break
-    case "/design":
-      Component = Design
-      break
-    case "/dev":
-      Component = Dev
-      break
-  }
   return (
     <>
       <Navbar />
       <div className='comp-container'>
-        <Component />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/dev' element={<Dev />} />
+          <Route path='/design' element={<Design />} />
+        </Routes>
       </div>
     </>
     )

@@ -1,4 +1,5 @@
 import { Children } from 'react'
+import { Link, useMatch, useResolvedPath } from 'react-router-dom'
 import './Tut.css'
 
 function Navbar() {
@@ -6,20 +7,21 @@ function Navbar() {
 
   return (
     <nav className='navbar'>
-      <a href='/' className='site-title'>Renato</a>
+      <Link to='/' className='site-title'>Renato</Link>
       <ul>
-        <CustomLink href='/dev'>Dev</CustomLink>
-        <CustomLink href='/design'>Design</CustomLink>
+        <CustomLink to='/dev'>Dev</CustomLink>
+        <CustomLink to='/design'>Design</CustomLink>
       </ul>
     </nav>
   )
 }
 
-function CustomLink({ href, children,...props}) {
-  const path = window.location.pathname
+function CustomLink({ to, children,...props}) {
+  const resolvedPath = useResolvedPath(to)
+  const isActive = useMatch({ path: resolvedPath.pathname, end: true })
   return (
-    <li className={path === href ? 'active' : ''}>
-      <a href={href}>{children}</a>
+    <li className={isActive ? 'active' : ''}>
+      <Link to={to} {...props}>{children}</Link>
     </li>
   )
 } 
