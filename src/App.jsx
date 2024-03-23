@@ -11,7 +11,7 @@ function App() {
   let Component
   switch (window.location.pathname) {
     case "/":
-      Component = App
+      Component = Home
       break
     case "/design":
       Component = Design
@@ -23,7 +23,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <Component />
+      <div className='comp-container'>
+        <Component />
+      </div>
     </>
     )
     {/*<div className='app-container'>
