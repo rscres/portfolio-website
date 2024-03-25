@@ -5,7 +5,7 @@ function Header() {
   return (
       <>
       <header className='header-container'>
-          <Link to='/' className='header-name'>Renato<br />Crescenti</Link>
+          <Link to='/' className='header-name'>Renato<br/>Crescenti</Link>
             <section className='header-portfolios'>
               <ul>
                 <CustomLinks to='/dev'>Development</CustomLinks>
@@ -14,7 +14,7 @@ function Header() {
             </section>
             <section className='header-about'>
               <ul>
-                <CustomLinks to='/about'>About</CustomLinks>
+                <CustomLinks to='/about'>About me</CustomLinks>
                 <CustomLinks to='/contact'>Contact</CustomLinks>
               </ul>
             </section>

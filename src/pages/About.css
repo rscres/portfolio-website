@@ -1,0 +1,33 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 50%;
+  padding: 2rem;
+  color: white;
+  gap: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+}
+
+.list-separator {
+  background-color: white;
+  height: 0.2rem;
+  width: 10rem;
+}
