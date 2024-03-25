@@ -1,6 +1,5 @@
 // import { Component, useState } from 'react'
-import Header from './Header.jsx'
-import Navbar from './Navbar.jsx'
+import Header from './components/Header.jsx'
 import Home from './pages/Home.jsx'
 import Dev from './pages/Dev.jsx'
 import Design from './pages/Design.jsx'

@@ -1,23 +1,23 @@
 import { Link, useMatch, useResolvedPath } from 'react-router-dom'
-import './App.css'
+import '../App.css'
 
 function Header() {
   return (
       <>
       <header className='header-container'>
           <Link to='/' className='header-name'>Renato<br />Crescenti</Link>
-            <div className='header-portfolios'>
+            <section className='header-portfolios'>
               <ul>
                 <CustomLinks to='/dev'>Development</CustomLinks>
                 <CustomLinks to='/design'>Design</CustomLinks>
               </ul>
-            </div>
-            <div className='header-about'>
+            </section>
+            <section className='header-about'>
               <ul>
                 <CustomLinks to='/about'>About</CustomLinks>
                 <CustomLinks to='/contact'>Contact</CustomLinks>
               </ul>
-            </div>
+            </section>
       </header>
       </>
   )
