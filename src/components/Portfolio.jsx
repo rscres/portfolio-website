@@ -13,15 +13,15 @@ function PortfolioSection({ projects }) {
 }
 
 function ProjectCard({ ...props }) {
-  const [isOverlay, setIsOverlay] = useState(false);
+  const [isModalOpen, setIsModal] = useState(false);
 
-  function toggleOverlay() {
-    setIsOverlay(!isOverlay);
+  function toggleModal() {
+    setIsModal(!isModalOpen);
   }
 
   return (
     <>
-      <div className='project-container' onClick={toggleOverlay}>
+      <div className='project-container' onClick={toggleModal}>
         <h2 className='project-name'>{props.name}</h2>
         <img src={props.image} alt={props.alt} className='project-img'/>
         <div className='project-description'>
@@ -29,19 +29,19 @@ function ProjectCard({ ...props }) {
             <p>{props.stack}</p>
         </div>
       </div>
-      {isOverlay && createPortal(
-        <ProjectOverlay {...props} action={toggleOverlay}/>,
+      {isModalOpen && createPortal(
+        <ProjectModal {...props} action={toggleModal}/>,
         document.body)}
     </>
   )
 }
 
-function ProjectOverlay({ action, ...props }) {
+function ProjectModal({ action, ...props }) {
   return (
     <>
-    <div className='overlay'onClick={action}/>
-    <div className='overlay-container'>
-      <div className='overlay-content'>
+    <div className='modal'onClick={action}/>
+    <div className='modal-container'>
+      <div className='modal-content'>
         <h2 className='project-name'>{props.name}</h2>
         <a href={props.link} target='_blank' rel='noreferrer'>
           <img src={props.image} alt={props.alt} className='project-img'/>
