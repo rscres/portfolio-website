@@ -37,16 +37,11 @@ ul {
 
 .links,
 .list-skills {
-  display: flex;
-  flex-direction: row;
+  display: grid;
   justify-content: space-around;
   /* width: 60%; */
-  flex-wrap: wrap;
+  grid-template-columns: repeat(3, minmax(10rem, 1fr));
   gap: 1rem;
-}
-
-.links {
-  align-items: center;
 }
 
 .links a {
@@ -74,6 +69,13 @@ ul {
   margin: 1rem;
 }
 
+.about-skills li,
+.links li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .about-skills {
   display: flex;
   flex-direction: column;
@@ -96,4 +98,47 @@ ul {
 
 .item-title {
   text-decoration: underline;
+}
+
+@media (max-width: 830px) {
+  .about-content {
+    width: 100%;
+    min-width: 20rem;
+    margin: auto;
+    padding: 2rem 1rem;
+  }
+
+  .links {
+    flex-direction: column;
+  }
+
+  .list-skills,
+  .links {
+    grid-template-columns: repeat(2, minmax(10rem, 1fr));
+    max-width: 25rem;
+    width: auto;
+    grid-column-gap: 0;
+  }
+
+  .about-skills {
+    padding: 1rem;
+    width: 100%;
+  }
+
+  ul {
+    width: 100%;
+  }
+
+  .about-education,
+  .about-experience {
+    width: 100%;
+  }
+
+  .item-info {
+    width: auto;
+ }
+
+  .item-text {
+    margin-top: 0.5rem;
+  }
 }
