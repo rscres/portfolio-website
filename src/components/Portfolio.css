@@ -12,7 +12,9 @@
 
 .projects {
   padding: 2rem;
-  width: 55rem;
+  max-width: 65rem;
+  min-width: 55rem;
+  height: auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem 1.5rem;
