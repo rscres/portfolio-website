@@ -11,15 +11,26 @@ I created this portfolio website as a personal project to learn ReactJS and ulti
 It consists of a homepage, development and design portfolios, an About me page and a simple contact form.
 
 ## Home
-![](readme_imgs/home.png)Homepage
+
+<img src='readme_imgs/home.png' width='500px'/>
+
 ## Portfolios
 ### Development
-![](readme_imgs/port-dev.png)Development portfolio
+
+<img src='readme_imgs/port-dev.png' width='500px'/>
+
 ### Design
-![](readme_imgs/port-design.png)Design portfolio
+
+<img src='readme_imgs/port-design.png' width='500px'/>
+
 ### Modal
-![](readme_imgs/port-modal.png)Project modal
+
+<img src='readme_imgs/port-modal.png' width='500px'/>
+
 ## About me
-![](readme_imgs/about.png)About me
+
+<img src='readme_imgs/about.png' width='500px'/>
+
 ## Contact
-![](readme_imgs/contact.png)Contact
+
+<img src='readme_imgs/contact.png' width='500px'/>
