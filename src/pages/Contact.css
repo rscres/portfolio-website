@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   height: fit-content;
-  padding: 6rem;
+  padding: 6rem 2rem;
   overflow: auto;
   gap: 2rem;
 }
@@ -21,10 +21,10 @@
   min-width: 28rem;
   width:auto;
   height: auto;
-  padding: 2rem 4rem;
+  padding: 1rem;
   gap: 1rem;
   box-shadow: 0 2px 4px 1px #00071a;
-  border-radius: 10px;
+  border-radius: 0.5rem;
 }
 
 .contact-form label {
@@ -77,12 +77,11 @@
   .contact-form {
     max-width: 28rem;
     width: 100%;
-    min-width: 20rem;
-    padding: 1rem;
+    min-width: 18rem;
   }
 
   .contact-form button {
-    width: 100%;
+    width: 80%;
     height: 3rem;
     font-size: 2rem;
     align-self: center;

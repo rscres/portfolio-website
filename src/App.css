@@ -13,9 +13,9 @@ html {
 body {
   background-color: #0f1b45;
   background-image: 
-  linear-gradient(0.7turn, rgb(15, 27, 69) 0%, rgb(15, 27, 69) 60%,rgba(177, 178, 181, 0) 100%), 
-  url(/assets/BG.jpg);
-  background-size: auto;
+  linear-gradient(0.7turn, rgb(15, 27, 69) 5%, rgb(15, 27, 69) 60%,rgba(177, 178, 181, 0) 100%), 
+  url('./assets/BG.png');
+  background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }

@@ -1,5 +1,7 @@
 import { useState }from "react";
 import { createPortal } from "react-dom";
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function PortfolioSection({ projects }) {
 
@@ -43,9 +45,16 @@ function ProjectModal({ action, ...props }) {
     <div className='modal-container'>
       <div className='modal-content'>
         <h2 className='project-name'>{props.name}</h2>
-        <a href={props.link} target='_blank' rel='noreferrer'>
+        {/* <a href={props.link} target='_blank' rel='noreferrer'>
           <img src={props.image} alt={props.alt} className='project-img'/>
-        </a>
+        </a> */}
+        <Carousel>
+          {props.images.map((image, index) => (
+            <div key={index}>
+              <img src={image} alt={props.alt} className='project-img'/>
+            </div>
+          ))}
+        </Carousel>
         <div className='project-description'>
           <p className='project-text'>{props.text}</p>
           <p>{props.stack}</p>
