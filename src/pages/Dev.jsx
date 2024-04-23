@@ -6,12 +6,12 @@ function Dev() {
     {
       name: 'FdF',
       link: 'https://github.com/rscres/42FdF',
-      image: '../assets/FranceXXL.gif',
+      image: 'assets/FranceXXL.gif',
       images: [
-        '../assets/FranceXXL.gif',
-        '../assets/BG.png',
-        '../assets/fdf42.png',
-        '../assets/fdf42-srcfile.png'
+        'assets/FranceXXL.gif',
+        'assets/BG.png',
+        'assets/fdf42.png',
+        'assets/fdf42-srcfile.png'
       ],
       alt: 'FdF',
       text: 'Graphic project for 42 cursus which creates a 3D visualisation of a map using height data',
@@ -19,12 +19,12 @@ function Dev() {
     },
     {
       name: 'Minishell',
-      image: '../assets/minishell_cover.png',
+      image: 'assets/minishell_cover.png',
       images: [
-        '../assets/minishell1.png',
-        '../assets/minishell2.png',
-        '../assets/minishell3.png',
-        '../assets/minishell4.png'
+        'assets/minishell1.png',
+        'assets/minishell2.png',
+        'assets/minishell3.png',
+        'assets/minishell4.png'
       ],
       alt: 'Minishell',
       text: '42 cursus project aiming to recrete a simplified shell based on bash. \
@@ -34,9 +34,9 @@ function Dev() {
     },
     // {
     //   name: 'Weather app',
-    //   image: '../assets/BG.png',
+    //   image: 'assets/BG.png',
     //   images: [
-    //     '../assets/BG.png'
+    //     'assets/BG.png'
     //   ],
     //   alt: 'Weather app',
     //   text: 'React web app',
@@ -45,13 +45,13 @@ function Dev() {
     {
     name: 'Portfolio website',
     link: 'https://github.com/rscres/portfolio-website',
-    image: '../assets/portfolio-website.png',
+    image: 'assets/portfolio-website.png',
     images: [
-      '../assets/portfolio-website.png',
-      '../readme_imgs/about.png',
-      '../readme_imgs/contact.png',
-      '../readme_imgs/port-design.png',
-      '../readme_imgs/port-modal.png'
+      'assets/portfolio-website.png',
+      'readme_imgs/about.png',
+      'readme_imgs/contact.png',
+      'readme_imgs/port-design.png',
+      'readme_imgs/port-modal.png'
     ],
     alt: 'Portfolio website',
     text: 'This website! A personal portfolio website built with React and hosted on GitHub Pages',
@@ -74,7 +74,7 @@ function Dev() {
 //     {
 //       name: 'Portfolio website',
 //       link: 'https://github.com/rscres/portfolio-website',
-//       image: '../assets/portfolio-website.png',
+//       image: 'assets/portfolio-website.png',
 //       alt: 'Portfolio website',
 //       text: 'The quick brown fox jumps over the lazy dog. Lorem ipsum',
 //       stack: 'HTML, CSS, React'
@@ -82,7 +82,7 @@ function Dev() {
 //     {
 //       name: 'FdF',
 //       link: 'https://github.com/rscres/42FdF',
-//       image: '../assets/FranceXXL.gif',
+//       image: 'assets/FranceXXL.gif',
 //       alt: 'FdF',
 //       text: 'Graphic project for 42 cursus',
 //       stack: 'C'
