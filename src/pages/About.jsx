@@ -8,12 +8,12 @@ function About() {
       <div className='about-content'>
         <ul className='links'>
           <li><a href='https://www.linkedin.com/in/renato-crescenti/' target='_blank' rel='noreferrer'>
-            <img src='assets/linkedin.png' alt='Linkedin logo'/></a>
+            <img src='portfolio-website/assets/linkedin.png' alt='Linkedin logo'/></a>
           </li>
           <li><a href='https://github.com/rscres' target='_blank' rel='noreferrer'>
-            <img src='assets/github.png' alt='Github logo'/></a>
+            <img src='portfolio-website/assets/github.png' alt='Github logo'/></a>
           </li>
-          {/* <li><a href='./assets/BG.jpg' download>
+          {/* <li><a href='/assets/BG.jpg' download>
             <img src='assets/cv.png' alt='cv icon'/></a>
           </li> */}
         </ul>
@@ -21,12 +21,12 @@ function About() {
         <section className='about-skills'>
           <h2>Skills</h2>
           <ul className='list-skills'>
-            <li><img src='assets/html.png' alt='html5 logo'/></li>
-            <li><img src='assets/css.png' alt='css logo'/></li>
-            <li><img src='assets/js.png' alt='javascript logo'/></li>
-            <li><img src='assets/react.png' alt='react logo'/></li>
-            <li><img src='assets/ruby.png' alt='ruby logo'/></li>
-            <li><img src='assets/c.png' alt='c logo'/></li>
+            <li><img src='portfolio-website/assets/html.png' alt='html5 logo'/></li>
+            <li><img src='portfolio-website/assets/css.png' alt='css logo'/></li>
+            <li><img src='portfolio-website/assets/js.png' alt='javascript logo'/></li>
+            <li><img src='portfolio-website/assets/react.png' alt='react logo'/></li>
+            <li><img src='portfolio-website/assets/ruby.png' alt='ruby logo'/></li>
+            <li><img src='portfolio-website/assets/c.png' alt='c logo'/></li>
           </ul>
         </section>
         <div className='list-separator'/>

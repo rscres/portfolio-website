@@ -5,18 +5,18 @@ function Design() {
   const projects = [
     {
     name: 'Fort Boyer beer label',
-    image: '../assets/FortBoyer.png',
+    image: 'portfolio-website/assets/FortBoyer.png',
     images: [
-      '../assets/FortBoyer.png'
+      'portfolio-website/assets/FortBoyer.png'
     ],
     alt: 'Fort Boyer beer label',
     text: 'Beer label design for a local brewery',
     },
     {
     name: 'Sao Gabriel beer label',
-    image: '../assets/SaoGabriel.png',
+    image: 'portfolio-website/assets/SaoGabriel.png',
     images: [
-      '../assets/SaoGabriel.png'
+      'portfolio-website/assets/SaoGabriel.png'
     ],
     alt: 'Sao Gabriel beer label',
     text: 'Beer label design for a local brewery',
