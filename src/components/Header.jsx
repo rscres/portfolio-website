@@ -12,7 +12,7 @@ function Header() {
   return (
     <>
       <header className='header-container'>
-        <Link to='/' className='header-name' onClick={() => setIsMenuOpen(false)}>Renato<br/>Crescenti</Link>
+        <Link to='/portfolio-website' className='header-name' onClick={() => setIsMenuOpen(false)}>Renato<br/>Crescenti</Link>
         <section className='header-portfolios'>
           <ul>
             <CustomLinks to='/dev'>Development</CustomLinks>
