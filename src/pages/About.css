@@ -100,7 +100,8 @@ ul {
   text-decoration: underline;
 }
 
-@media (max-width: 830px) {
+@media (max-width: 630px) {
+
   .about-content {
     width: 100%;
     min-width: 20rem;

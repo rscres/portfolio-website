@@ -24,7 +24,7 @@
   padding: 1rem;
   gap: 1rem;
   box-shadow: 0 2px 4px 1px #00071a;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
 }
 
 .contact-form label {

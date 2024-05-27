@@ -61,29 +61,3 @@ function CustomLinks({ to, children, action}) {
 }
 
 export default Header;
-
-
-// function Menu() {
-//   return (
-//     <nav>
-//       <ul>
-//         <CustomLinks to='/dev'>Development</CustomLinks>
-//         <CustomLinks to='/design'>Design</CustomLinks>
-//         <CustomLinks to='/about'>About</CustomLinks>
-//         <CustomLinks to='/contact'>Contact</CustomLinks>
-//       </ul>
-//     </nav>
-//   )
-// }
-
-// function CustomLinks({ to, children, ...props}) {
-//   const resolvedPath = useResolvedPath(to)
-//   const isActive = useMatch({ path: resolvedPath.pathname, end: true })
-//   return (
-//     <li className={isActive ? 'active' : ''}>
-//       <Link to={to}>{children}</Link>
-//     </li>
-//   )
-// }
-
-// export default Header
