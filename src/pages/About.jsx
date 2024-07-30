@@ -17,7 +17,7 @@ function About() {
             <img src='assets/cv.png' alt='cv icon'/></a>
           </li> */}
         </ul>
-        <p className='about-text'>Hello, my name is Renato Crescenti and I'm a web developer/designer based in Brazil. I specialize in creating beautiful, responsive websites and applications for businesses and individuals.</p>
+        <p className='about-text'>I'm a multifaceted professional with international experience in 3D animation and sales, currently honing my skills in Software Engineering at 42 São Paulo. With a degree in Industrial Design and specialised courses in character animation, I have a strong technical background in programming (C/C++, Java, Ruby, JavaScript, ReactJS, Linux) and design/3D (Blender, Autodesk Maya, Unreal Engine, Adobe Suite). My career is characterised by adaptability and a deep interest in technology, sports and the arts. I speak Portuguese, English and French.</p>
         <section className='about-skills'>
           <h2>Skills</h2>
           <ul className='list-skills'>

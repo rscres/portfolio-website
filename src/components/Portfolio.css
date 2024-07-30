@@ -23,9 +23,10 @@
 .project-container {
   background-color: rgba(6, 11, 31, 0.658);
   padding: 1rem 0;
-  /* border-radius: 0.3rem; */
   color: white;
   box-shadow: 0 2px 4px 1px #00071a;
+  min-height: fit-content;
+  transition: ease-in 0.5s;
 }
 
 .project-name {
@@ -73,15 +74,16 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-height: fit-content;
+  max-height: 90vh;
   max-width: 80vw;
   min-width: fit-content;
+  min-height: fit-content;
   background-color: rgb(6, 11, 31);
-  border-radius: 0.5rem;
   z-index: 2;
   color: white;
   padding: 1rem;
   margin: 2rem 1rem;
+  transition: ease-in 0.5s;
 }
 
 .modal img {
@@ -102,7 +104,7 @@
 
 .carousel-slider img {
   max-height: 70%;
-  max-width: 65%;
+  /* max-width: 65%; */
   height: auto;
   width: auto;
 }
@@ -140,6 +142,7 @@
 
   .modal-container {
     /* height: 80vh; */
-    max-width: 80vw;
+    /* max-width: 80vw; */
+    margin: 1rem;
   }
 }
